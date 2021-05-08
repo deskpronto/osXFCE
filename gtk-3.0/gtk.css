@@ -893,7 +893,7 @@ combobox arrow {
 toolbar, .toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
-  background-color: #E7E8EB;
+  background-color: #E7EFEF;
    
     border: 1px solid shade (@titlebar_color, 0.56);
     border-width: 0 0 1px;
@@ -916,7 +916,7 @@ toolbar, .toolbar, .inline-toolbar {
     padding: 7px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-    background-color: rgba(53, 57, 69, 0.85); }
+    background-color: #E7EFEF; }
     toolbar.osd.left, .osd.left.inline-toolbar, toolbar.osd.right, .osd.right.inline-toolbar, toolbar.osd.top, .osd.top.inline-toolbar, toolbar.osd.bottom, .osd.bottom.inline-toolbar {
       border-radius: 0; }
     toolbar.osd.top, .osd.top.inline-toolbar {
