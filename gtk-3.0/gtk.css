@@ -893,7 +893,7 @@ combobox arrow {
 toolbar, .toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
-  background-color: #E7EFEF;
+  background-color: #F7F7F7;
    
     border: 1px solid shade (@titlebar_color, 0.56);
     border-width: 0 0 1px;
@@ -916,7 +916,7 @@ toolbar, .toolbar, .inline-toolbar {
     padding: 7px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 3px;
-    background-color: #E7EFEF; }
+    background-color: #F7F7F7; }
     toolbar.osd.left, .osd.left.inline-toolbar, toolbar.osd.right, .osd.right.inline-toolbar, toolbar.osd.top, .osd.top.inline-toolbar, toolbar.osd.bottom, .osd.bottom.inline-toolbar {
       border-radius: 0; }
     toolbar.osd.top, .osd.top.inline-toolbar {
@@ -971,19 +971,19 @@ headerbar,
   min-height: 42px;
   padding: 0 7px;
   color: rgba(0, 0, 0, 1);
-  background-color: #E7EFEF;
+  background-color: #F7F7F7;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-color: #E7EFEF; }
+    background-color: #F7F7F7; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
     color: rgba(82, 93, 118, 0.5);
-    background-color: #E7EFEF; }
+    background-color: #F7F7F7; }
     .csd headerbar:backdrop,
     .csd .titlebar:backdrop:not(headerbar) {
-      background-color: #E7EFEF; }
+      background-color: #F7F7F7; }
   headerbar .title, .titlebar:not(headerbar) .title {
     padding-left: 7px;
     padding-right: 7px; }
