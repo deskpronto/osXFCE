@@ -128,8 +128,8 @@ style "toolbar_entry" {
 #Chromium
 style "chrome-gtk-frame" {
 
-  ChromeGtkFrame::frame-color = "#e7e8eb"
-  ChromeGtkFrame::inactive-frame-color = "#e7e8eb"
+  ChromeGtkFrame::frame-color = "#F7F7F7"
+  ChromeGtkFrame::inactive-frame-color = "#F7F7F7"
 
   ChromeGtkFrame::frame-gradient-size = 0
   ChromeGtkFrame::frame-gradient-color = shade(0.5, @bg_color)
