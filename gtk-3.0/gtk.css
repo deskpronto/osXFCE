@@ -285,11 +285,6 @@ treeview entry.flat, treeview entry {
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #5294e2; }
 
-@keyframes needs_attention {
-  from {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.01, to(#5294e2), to(transparent)); }
-  to {
-    background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(#5294e2), to(transparent)); } }
 
 button {
   min-height: 22px;
@@ -976,13 +971,11 @@ headerbar,
   min-height: 42px;
   padding: 0 7px;
   color: rgba(0, 0, 0, 1);
-  background-image: linear-gradient(#EFEFEF, #DDDDDD);
-  background-color: #FFFFFF;
+  background-color: #E7EFEF;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-image: linear-gradient(#EFEFEF, #DDDDDD);
-    background-color: #FFFFFF; }
+    background-color: ##E7EFEF; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
@@ -3691,20 +3684,16 @@ panel-toplevel.background na-tray-applet {
 	
 .tasklist .toggle {
   background-color: transparent;
-
 }
 
 .tasklist .toggle:hover {
   background-color: silver;
   color: white;
-
 }
 
 .tasklist .toggle:checked {
   background-color: #ffffff;
-
   color: #31363d;
-
 }
 
 .mate-panel-menu-bar button:not(#tasklist-button),
