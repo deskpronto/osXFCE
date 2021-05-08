@@ -971,11 +971,11 @@ headerbar,
   min-height: 42px;
   padding: 0 7px;
   color: rgba(0, 0, 0, 1);
-  background-color: #E7EFEF;
+  background-color: transparent;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-color: ##E7EFEF; }
+    background-color: transparent; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
