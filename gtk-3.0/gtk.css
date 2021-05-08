@@ -21,7 +21,7 @@
 @define-color selected_fg_color #FFF;
 @define-color text_color #333;
 @define-color text_shadow_color alpha (#fff, 0.4);
-@define-color titlebar_color #E7E8EB;
+@define-color titlebar_color #F7F7F7;
 @define-color title_color shade (@titlebar_color, 0.55);
 @define-color title_shadow_color alpha (#fff, 1);
 @define-color tooltip_bg_color #000;
@@ -940,11 +940,11 @@ toolbar, .toolbar, .inline-toolbar {
 
 .primary-toolbar:not(.libreoffice-toolbar) {
   color: rgba(82, 93, 118, 0.8);
-  background-color: #e7e8eb;
+  background-color: #F7F7F7;
   box-shadow: none;
   border-width: 0 0 1px 0;
   border-style: solid;
-  border-image: linear-gradient(to bottom, #e7e8eb, rgba(212, 213, 219, 0.95)) 1 0 1 0; }
+  border-image: linear-gradient(to bottom, #F7F7F7, rgba(212, 213, 219, 0.95)) 1 0 1 0; }
 
 .inline-toolbar {
   background-color: #edeef0;
@@ -1021,7 +1021,7 @@ headerbar,
     border-radius: 0; }
   .maximized headerbar,
   .maximized .titlebar:not(headerbar) {
-    background-color: #e7e8eb;
+    background-color: #F7F7F7;
     border-color: #d4d5db; }
     .maximized headerbar:backdrop,
     .maximized .titlebar:backdrop:not(headerbar) {
@@ -1035,7 +1035,7 @@ headerbar,
   .csd .default-decoration.titlebar:backdrop:not(headerbar) {
     min-height: 28px;
     padding: 0 5px;
-    background-color: #e7e8eb;
+    background-color: #F7F7F7;
     border-bottom-width: 0; }
     .maximized headerbar.default-decoration, .maximized
     .csd headerbar.default-decoration, .maximized headerbar.default-decoration:backdrop, .maximized
@@ -1046,7 +1046,7 @@ headerbar,
     .maximized .default-decoration.titlebar:backdrop:not(headerbar),
     .maximized
     .csd .default-decoration.titlebar:backdrop:not(headerbar) {
-      background-color: #e7e8eb; }
+      background-color: #F7F7F7; }
 
 .titlebar {
   border-radius: 5px 5px 0 0; 
@@ -1540,7 +1540,7 @@ treeview.view {
     menubar,
     .menubar {
       color: @text_color;
-    background-color: @titlebar_color;
+    background-color: #F7F7F7;
     border-width: 0 0 1px;
     box-shadow:
         inset 0 1px 0 0 alpha (@bg_highlight_color, 0.2),
@@ -1548,7 +1548,7 @@ treeview.view {
     -GtkWidget-window-dragging: true; }
       menubar:backdrop,
       .menubar:backdrop {
-        background-color: #E7E8EB;}
+        background-color: #F7F7F7;}
       menubar > menuitem,
       .menubar > menuitem { /* main menu items in panel */
         min-height: 16px;
@@ -3827,7 +3827,7 @@ UnityDecoration {
     border-bottom-width: 0;
     border-radius: 4px 4px 0 0;
     padding: 1px 6px 0 6px;
-    background-image: linear-gradient(to bottom, #e7e8eb, #e7e8eb);
+    background-image: linear-gradient(to bottom, #F7F7F7, #F7F7F7);
     color: rgba(82, 93, 118, 0.8);
     box-shadow: inset 0 1px rgba(239, 240, 242, 0.95); }
     UnityDecoration .top:backdrop {
@@ -4097,13 +4097,13 @@ GtkListBox .h4 {
 
 /*#panel_window {
   background-color: rgba(43, 46, 55, 0.95);
-  color: #e7e8eb;
+  color: #F7F7F7;
   box-shadow: inset 0 -1px rgba(27, 29, 35, 0.95); }
   #panel_window menubar {
     padding-left: 5px; }
     #panel_window menubar, #panel_window menubar > menuitem {
       background-color: transparent;
-      color: #e7e8eb
+      color: #F7F7F7
       font-weight: 600; }
   #panel_window menubar menuitem:disabled {
     color: rgba(186, 195, 207, 0.5); }
@@ -4455,7 +4455,7 @@ filechooser placessidebar.sidebar scrollbar,
 @define-color content_view_bg #ffffff;
 @define-color wm_title alpha(#000000, 0.8);
 @define-color wm_unfocused_title alpha(#525d76, 0.5);
-@define-color wm_bg #e7e8eb;
+@define-color wm_bg #F7F7F7;
 @define-color wm_bg_unfocused #eff0f2;
 @define-color wm_highlight #eff0f2;
 @define-color wm_shadow alpha(black, 0.35);
