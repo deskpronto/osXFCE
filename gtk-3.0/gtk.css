@@ -971,19 +971,19 @@ headerbar,
   min-height: 42px;
   padding: 0 7px;
   color: rgba(0, 0, 0, 1);
-  background-color: transparent;
+  background-color: #E7EFEF;
   box-shadow: none; }
   .csd headerbar,
   .csd .titlebar:not(headerbar) {
-    background-color: transparent; }
+    background-color: #E7EFEF; }
   headerbar:backdrop,
   .titlebar:backdrop:not(headerbar) {
     transition: 200ms ease-out;
     color: rgba(82, 93, 118, 0.5);
-    background-color: #eff0f2; }
+    background-color: #E7EFEF; }
     .csd headerbar:backdrop,
     .csd .titlebar:backdrop:not(headerbar) {
-      background-color: rgba(239, 240, 242, 0.95); }
+      background-color: #E7EFEF; }
   headerbar .title, .titlebar:not(headerbar) .title {
     padding-left: 7px;
     padding-right: 7px; }
