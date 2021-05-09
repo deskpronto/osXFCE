@@ -2865,11 +2865,11 @@ tooltip.background {
 	background-clip: padding-box;
 }
 
-tooltip.background.csd:first-child, tooltip.background.csd:last-child{border-radius: 4.0px;}
+tooltip.background.csd:first-child, tooltip.background.csd:last-child{border-radius: 8px;}
 
 tooltip.background.csd decoration { padding: 0; box-shadow: none; }
 
-tooltip * {	background-color: transparent;	color: white; padding: 3px 3px 2px 3px; border-radius: 8px; }
+tooltip * {	background-color: transparent;	color: white; padding: 3px 3px 2px 3px; }
 
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
