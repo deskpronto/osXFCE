@@ -105,8 +105,7 @@ textview text {
   iconview text:selected:focus,
   textview text:selected:focus {
     border-radius: 5px;
-    padding: 3px;
-    background-color: #D6D6D6; }
+	background-color: #D6D6D6; }
 
 textview border {
   background-color: #fafbfb; }
@@ -1434,7 +1433,6 @@ window.csd > .titlebar:not(headerbar):backdrop {
   padding-left: 4px;
   padding-right: 4px; }
 
-
 treeview.view {
   border-left-color: rgba(92, 97, 108, 0.15);
   border-top-color: rgba(0, 0, 0, 0.1); }
@@ -1446,7 +1444,7 @@ treeview.view {
     -GtkTreeView-tree-line-pattern: '';
     -GtkTreeView-expander-size: 16; }
   treeview.view acceleditor > label {
-    background-color: #ffffff; }
+    background-color: #D6D6D6; }
   treeview.view:selected, treeview.view:selected:focus {
     border-radius: 0;
     border-left-color: #a9caf1;
@@ -3714,7 +3712,10 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   panel-toplevel.background button:checked:not(#tasklist-button), .xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {
     color: #353535;
     border: none;
-    background-color: darkgray;	}
+    background-color: darkgray;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 2px;	}
     .mate-panel-menu-bar button:active:not(#tasklist-button) label,
     panel-toplevel.background button:active:not(#tasklist-button) label, .xfce4-panel.panel button.flat:active label, .xfce4-panel.panel button.sidebar-button:active label, .mate-panel-menu-bar button:active:not(#tasklist-button) image,
     panel-toplevel.background button:active:not(#tasklist-button) image, .xfce4-panel.panel button.flat:active image, .xfce4-panel.panel button.sidebar-button:active image, .mate-panel-menu-bar button:checked:not(#tasklist-button) label,
