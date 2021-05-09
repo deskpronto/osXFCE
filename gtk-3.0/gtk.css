@@ -24,8 +24,6 @@
 @define-color titlebar_color #F7F7F7;
 @define-color title_color shade (@titlebar_color, 0.55);
 @define-color title_shadow_color alpha (#fff, 1);
-@define-color tooltip_bg_color #000;
-@define-color tooltip_fg_color #FFF;
 @define-color internal_element_color mix(@text_color, @base_color, 0.4);
 @define-color internal_element_prelight mix(@text_color, @base_color, 0.2);
 @define-color internal_element_insensitive mix(@internal_element_color, @base_color, 0.7);
@@ -36,8 +34,6 @@
 @define-color theme_text_color @text_color;
 @define-color theme_bg_color @bg_color;
 @define-color theme_fg_color @fg_color;
-@define-color theme_tooltip_bg_color @tooltip_bg_color;
-@define-color theme_tooltip_fg_color @tooltip_fg_color;
 @define-color theme_selected_bg_color @selected_bg_color;
 @define-color theme_selected_fg_color @selected_fg_color;
 @define-color attention_color #3d9bda;
@@ -127,14 +123,10 @@ popover.background label.separator {
 
 label selection {
   color: #353535;
-  background-color: #D6D6D6; }
+  background-color: #f7f7f7; }
 
 label:disabled {
   color: rgba(92, 97, 108, 0.55); }
-
-.dim-label, label.separator, popover label.separator,
-popover.background label.separator, headerbar .subtitle, .titlebar:not(headerbar) .subtitle {
-  opacity: 0.55; }
 
 assistant .sidebar {
   background-color: #ffffff;
@@ -1552,9 +1544,9 @@ treeview.view {
         border: 0 solid transparent;}
         menubar > menuitem:hover,
         .menubar > menuitem:hover {
-          background-color: #F7F7F7;
+          background-color: #40C6FF;
           color: #353535;
-          border-color: shade(#F7F7F7, 1.1); }
+          border-color: shade(#40C6FF, 1.1); }
         menubar > menuitem:disabled,
         .menubar > menuitem:disabled {
           color: #858585;
@@ -1606,7 +1598,7 @@ toolbutton button {
         menu menuitem:hover,
         .menu menuitem:hover {
           color: #353535;
-          background-color: #F7F7F7;
+          background-color: #40C6FF;
     }
         menu menuitem:disabled,
         .menu menuitem:disabled {
@@ -2866,16 +2858,18 @@ row:selected button:disabled, infobar.info button:disabled, infobar.question but
     background-color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.4); }
 
-tooltip {
-  border-radius: 8px;
-  box-shadow: none; }
-  tooltip.background {
-    background-color: rgba(119,136,153,0.6);
-    background-clip: padding-box;
-    border: none; }
-  tooltip * {
-    padding: 2px 5px 1px 5px;
-    color: white; }
+tooltip {	box-shadow: none;}
+
+tooltip.background {
+	background-color: rgba(119,136,153,0.2);
+	background-clip: padding-box;
+}
+
+tooltip.background.csd:first-child, tooltip.background.csd:last-child{border-radius: 4.0px;}
+
+tooltip.background.csd decoration { padding: 0; box-shadow: none; }
+
+tooltip * {	background-color: transparent;	color: white; padding: 3px 3px 2px 3px; border-radius: 8px; }
 
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
@@ -3023,9 +3017,6 @@ decoration {
   .csd.popup decoration {
     border-radius: 2px;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); }
-  tooltip.csd decoration {
-    border-radius: 2px;
-    box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.1); }
   messagedialog.csd decoration {
     border-radius: 3px; }
   .solid-csd decoration {
