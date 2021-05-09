@@ -3674,19 +3674,19 @@ panel-toplevel.background na-tray-applet {
     box-shadow: inset 0 -2px #5294e2; }
 	
 .tasklist .toggle {
-  background-color: red;
+  background-color: lightgray;
 }
 
 .tasklist .toggle:hover {
   background-color: silver;
-  color: white;
+  color: black;
 }
 
 .tasklist .toggle:checked {
   background-color: #ffffff;
   color: #31363d;
 }
-.xfce4-panel.panel button { margin: 1px; border-radius: 5px; }
+.xfce4-panel.panel button { margin: 1px; border-radius: 7; }
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
