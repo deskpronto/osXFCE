@@ -88,7 +88,7 @@
     background-color: #fbfbfc;
     color: rgba(92, 97, 108, 0.55); }
   .gtkstyle-fallback:selected {
-    background-color: #F7F7F7;
+    background-color: #D6D6D6;
     color: #353535; }
 
 .view, iconview,
@@ -126,7 +126,7 @@ popover.background label.separator {
 
 label selection {
   color: #353535;
-  background-color: #F7F7F7; }
+  background-color: #D6D6D6; }
 
 label:disabled {
   color: rgba(92, 97, 108, 0.55); }
@@ -146,7 +146,7 @@ assistant .sidebar label {
   padding: 6px 12px; }
 
 assistant .sidebar label.highlight {
-  background-color: #F7F7F7;
+  background-color: #D6D6D6;
   color: #353535; }
 
 textview {
@@ -317,7 +317,7 @@ button {
   button:active, button:checked {
     color: #353535;
     border-color: #cfd6e6;
-    background-color: silver;
+    background-color: #D6D6D6;
     background-clip: border-box;
     transition-duration: 50ms; }
     button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
@@ -381,7 +381,7 @@ button {
     button.osd:active, button.osd:checked {
       color: #353535;
       border-color: rgba(26, 28, 34, 0.35);
-      background-color: #F7F7F7; }
+      background-color: #D6D6D6; }
     button.osd:disabled {
       color: #5d626e;
       border-color: rgba(26, 28, 34, 0.35);
@@ -398,7 +398,7 @@ button {
       background-clip: padding-box;
       color: #353535;
       border-color: rgba(26, 28, 34, 0.35);
-      background-color: #F7F7F7; }
+      background-color: #D6D6D6; }
     .osd button:disabled {
       color: #5d626e;
       border-color: rgba(26, 28, 34, 0.35);
@@ -420,7 +420,7 @@ button {
       .osd button.flat:active, .osd button.sidebar-button:active, .osd button.flat:checked, .osd button.sidebar-button:checked {
         color: #353535;
         border-color: rgba(26, 28, 34, 0.35);
-        background-color: #F7F7F7; }
+        background-color: #D6D6D6; }
   .osd .linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active):not(:only-child),
   .osd .linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active) + button:not(:checked):not(:active) {
     box-shadow: none; }
@@ -528,7 +528,7 @@ button {
   .inline-toolbar toolbutton > button:active, .inline-toolbar toolbutton > button:checked {
     color: #353535;
     border-color: #5294e2;
-    background-color: #F7F7F7; }
+    background-color: #D6D6D6; }
   .inline-toolbar toolbutton > button:disabled {
     border-color: rgba(207, 214, 230, 0.55);
     background-color: rgba(251, 251, 252, 0.55); }
@@ -933,6 +933,8 @@ toolbar, .toolbar, .inline-toolbar {
   toolbar:not(.inline-toolbar) .linked > button, .inline-toolbar:not(.inline-toolbar) .linked > button,
   toolbar:not(.inline-toolbar) .linked > entry, .inline-toolbar:not(.inline-toolbar) .linked > entry {
     margin-right: 0; }
+
+
 
 .primary-toolbar:not(.libreoffice-toolbar) {
   color: rgba(82, 93, 118, 0.8);
