@@ -3687,7 +3687,7 @@ panel-toplevel.background na-tray-applet {
   color: #31363d;
 }
 
-.xfce-panel.panel button:hover { background-color: red; }  
+.xfce4-panel.panel button:hover { background-color: red; }  
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
