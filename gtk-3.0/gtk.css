@@ -278,8 +278,6 @@ treeview entry.flat, treeview entry {
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #5294e2; }
 
-label { background-color: red; }
-
 button {
   min-height: 22px;
   min-width: 20px;

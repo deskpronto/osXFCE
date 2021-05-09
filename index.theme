@@ -6,6 +6,6 @@ Encoding=UTF-8
 
 [X-GNOME-Metatheme]
 GtkTheme=Greybird
-IconTheme=SYNCYOU-Claro-Icones
+IconTheme=elementary-xfce
 CursorTheme=SYNCYOU-Claro-Icones
 ButtonLayout=menu:minimize,maximize,close
