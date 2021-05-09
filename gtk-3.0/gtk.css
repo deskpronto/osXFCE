@@ -1499,9 +1499,12 @@ treeview.view {
      * Menus *
      *********/
 
+.thunar statusbar { padding-top: 6px; }
+
+
     menubar,
     .menubar {
-	  padding: 4px 0 0 3px;
+	  padding: 6px 0 0 3px;
       color: @text_color;
       background-color: #E5E5E5;
       box-shadow: none;
