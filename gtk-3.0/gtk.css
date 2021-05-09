@@ -104,7 +104,8 @@ textview text {
   .view text:selected:focus,
   iconview text:selected:focus,
   textview text:selected:focus {
-    border-radius: 2px; }
+    border-radius: 5px;
+    padding: 3px;	}
 
 textview border {
   background-color: #fafbfb; }
