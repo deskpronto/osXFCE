@@ -3667,10 +3667,10 @@ panel-toplevel.background na-tray-applet {
   background-color: rgba(43, 46, 55, 0); }
   #tasklist-button:hover {
     color: black;
-    background-color: silver; }
+    background-color: red; }
   #tasklist-button:checked {
     color: white;
-    background-color: #398EE7;
+    background-color: silver;
     box-shadow: inset 0 -2px #5294e2; }
 	
 .tasklist .toggle {
@@ -3687,7 +3687,6 @@ panel-toplevel.background na-tray-applet {
   color: #31363d;
 }
 
-.xfce4-panel.panel button:hover { background-color: red; }  
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
@@ -3698,7 +3697,7 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
   .mate-panel-menu-bar button:hover:not(#tasklist-button),
   panel-toplevel.background button:hover:not(#tasklist-button), .xfce4-panel.panel button.flat:hover, .xfce4-panel.panel button.sidebar-button:hover {
     border: none;
-    background-color: transparent; }
+    background-color: blue; }
   .mate-panel-menu-bar button:active:not(#tasklist-button),
   panel-toplevel.background button:active:not(#tasklist-button), .xfce4-panel.panel button.flat:active, .xfce4-panel.panel button.sidebar-button:active, .mate-panel-menu-bar button:checked:not(#tasklist-button),
   panel-toplevel.background button:checked:not(#tasklist-button), .xfce4-panel.panel button.flat:checked, .xfce4-panel.panel button.sidebar-button:checked {
