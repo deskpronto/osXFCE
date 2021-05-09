@@ -311,7 +311,7 @@ button {
   button:hover {
     color: #353535;
     border-color: #cfd6e6;
-    background-color: silver; }
+    background-color: transparent; }
   button:active, button:checked {
     color: #353535;
     border-color: #cfd6e6;
@@ -1719,7 +1719,7 @@ toolbutton button {
 
 
 .xfce4-panel widget button:hover, #tasklist-button:hover {
-  background-color: inherit;
+  background-color: gray;
   color: inherit;
   -gtk-outline-radius: 0;
   outline-color: transparent;
