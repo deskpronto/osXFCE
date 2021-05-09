@@ -278,6 +278,7 @@ treeview entry.flat, treeview entry {
   treeview entry.flat:focus, treeview entry:focus {
     border-color: #5294e2; }
 
+label { background-color: red; }
 
 button {
   min-height: 22px;
@@ -308,17 +309,12 @@ button {
     margin-top: 1px;
     margin-bottom: 1px; }
   button:active, button:checked {
-    color: #353535;
+    color: white;
     border-color: #cfd6e6;
     background-color: #40C6FF;
     background-clip: border-box;
     transition-duration: 50ms; }
-    button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
-      color: inherit;
-      opacity: 0.6; }
-  button:active {
-    color: #353535; }
-  button:active:hover, button:checked {
+  button:active:hover {
     color: #353535; }
   button.flat:disabled, button.sidebar-button:disabled {
     border-color: transparent;
@@ -3973,7 +3969,7 @@ toolbar.bottom-toolbar, .bottom-toolbar.inline-toolbar {
 .source-list,
 .source-list.view,
 iconview.source-list {
-  background-color: #40C6FF;
+  background-color: #F5F6F7;
   color: #353535;
   -gtk-icon-style: regular; }
 
@@ -3990,13 +3986,13 @@ iconview.source-list:hover:selected,
 iconview.source-list:selected:focus,
 .source-list.category-expander:hover {
   color: #353535;
-  background-color: #40C6FF; }
+  background-color: #D6D6D6; }
 
 .source-list scrollbar,
 .source-list junction {
   border-image: none;
   border-color: transparent;
-  background-color: #40C6FF;
+  background-color: #F5F6F7;
   background-image: none; }
 
 .source-list.badge,
@@ -4005,7 +4001,7 @@ iconview.source-list:selected:focus,
 .source-list.badge:selected:focus,
 .source-list.badge:hover:selected {
   background-image: none;
-  background-color: #40C6FF;
+  background-color: #D6D6D6;
   color: #353535;
   border-radius: 10px;
   padding: 0 6px;
