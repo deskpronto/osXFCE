@@ -318,7 +318,7 @@ button {
   button:active, button:checked {
     color: #353535;
     border-color: #cfd6e6;
-    background-color: #D6D6D6;
+    background-color: #f7f7f7;
     background-clip: border-box;
     transition-duration: 50ms; }
     button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
