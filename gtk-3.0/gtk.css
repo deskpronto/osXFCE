@@ -1719,7 +1719,7 @@ toolbutton button {
 
 
 .xfce4-panel widget button:hover, #tasklist-button:hover {
-  background-color: gray;
+  background-color: inherit;
   color: inherit;
   -gtk-outline-radius: 0;
   outline-color: transparent;
@@ -3678,7 +3678,7 @@ panel-toplevel.background na-tray-applet {
 }
 
 .tasklist .toggle:hover {
-  background-color: silver;
+  background-color: green;
   color: white;
 }
 
