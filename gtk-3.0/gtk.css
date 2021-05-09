@@ -96,7 +96,9 @@
 iconview text,
 textview text {
   color: #353535;
-  background-color: #ffffff; }
+  background-color: #D6D6D6;
+padding: 5px;
+border-radius: 5px;  }
   .view:selected, iconview:selected, .view:selected:focus, iconview:selected:focus,
   .view text:selected,
   iconview text:selected,
@@ -1446,6 +1448,7 @@ treeview.view {
     background-color: #D6D6D6; }
   treeview.view:selected, treeview.view:selected:focus {
     border-radius: 0;
+	background-color: #D6D6D6;
     border-left-color: #a9caf1;
     border-top-color: rgba(92, 97, 108, 0.1); }
   treeview.view:disabled {
