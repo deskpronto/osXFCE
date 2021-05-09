@@ -1153,7 +1153,7 @@ window.csd > .titlebar:not(headerbar):backdrop {
   .primary-toolbar button:active, headerbar button:active, .primary-toolbar button:checked, headerbar button:checked {
     color: #353535;
     border-color: #5294e2;
-    background-color: #F7F7F7;
+    background-color: #D6D6D6;
     background-clip: border-box; }
   .primary-toolbar button:disabled, headerbar button:disabled {
     background-color: rgba(231, 232, 235, 0);
@@ -1443,7 +1443,7 @@ treeview.view {
     -GtkTreeView-tree-line-pattern: '';
     -GtkTreeView-expander-size: 16; }
   treeview.view acceleditor > label {
-    background-color: #F7F7F7; }
+    background-color: #D6D6D6; }
   treeview.view:selected, treeview.view:selected:focus {
     border-radius: 0;
     border-left-color: #a9caf1;
@@ -1527,7 +1527,7 @@ treeview.view {
     padding: 0 6px;
     transition: none;
     color: #353535;
-    background-color: #F7F7F7;
+    background-color: #D6D6D6;
     border-radius: 0;
     border-style: none; }
 
@@ -2619,7 +2619,7 @@ row.activatable:selected.has-open-popup, row.activatable:selected:hover {
     .app-notification button:active, .app-notification button:checked {
       color: #353535;
       border-color: rgba(26, 28, 34, 0.35);
-      background-color: #F7F7F7;
+      background-color: #D6D6D6;
       background-clip: padding-box; }
     .app-notification button:disabled {
       color: #5d626e;
@@ -4001,7 +4001,7 @@ iconview.source-list:hover:selected,
 iconview.source-list:selected:focus,
 .source-list.category-expander:hover {
   color: #353535;
-  background-color: #F7F7F7; }
+  background-color: #D6D6D6; }
 
 .source-list scrollbar,
 .source-list junction {
@@ -4016,7 +4016,7 @@ iconview.source-list:selected:focus,
 .source-list.badge:selected:focus,
 .source-list.badge:hover:selected {
   background-image: none;
-  background-color: #F7F7F7;
+  background-color: #D6D6D6;
   color: #353535;
   border-radius: 10px;
   padding: 0 6px;
@@ -4142,7 +4142,7 @@ GtkListBox .h4 {
   #content_frame button:active, #content_frame button:checked {
     color: #353535;
     border-color: #5294e2;
-    background-color: #F7F7F7; }
+    background-color: #D6D6D6; }
   #content_frame button:disabled {
     border-color: rgba(207, 214, 230, 0.55);
     background-color: rgba(251, 251, 252, 0.55); }
@@ -4171,7 +4171,7 @@ GtkListBox .h4 {
   #buttonbox_frame button:active, #buttonbox_frame button:checked {
     color: #353535;
     border-color: rgba(26, 28, 34, 0.35);
-    background-color: #F7F7F7; }
+    background-color: #D6D6D6; }
   #buttonbox_frame button:disabled {
     color: #5d626e;
     border-color: rgba(26, 28, 34, 0.35);
