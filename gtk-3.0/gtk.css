@@ -1434,6 +1434,10 @@ window.csd > .titlebar:not(headerbar):backdrop {
   padding-left: 4px;
   padding-right: 4px; }
 
+.thunar .standard-view .view { background-color: #F7F7F7; }
+
+
+
 treeview.view {
   border-left-color: rgba(92, 97, 108, 0.15);
   border-top-color: rgba(0, 0, 0, 0.1); }
