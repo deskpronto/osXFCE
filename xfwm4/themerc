@@ -2,6 +2,7 @@ button_offset=1
 button_spacing=-3
 
 show_app_icon=true
+show_popup_shadow=false
 
 full_width_title=true
 
@@ -21,3 +22,5 @@ shadow_delta_width=0
 shadow_delta_x=0
 shadow_delta_y=-5
 shadow_opacity=40
+
+
