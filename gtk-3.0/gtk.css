@@ -2861,7 +2861,7 @@ row:selected button:disabled, infobar.info button:disabled, infobar.question but
 tooltip {	box-shadow: none;}
 
 tooltip.background {
-	background-color: rgba(119,136,153,0.2);
+	background-color: rgba(0,0,0,0.5);
 	background-clip: padding-box;
 }
 
@@ -2869,7 +2869,7 @@ tooltip.background.csd:first-child, tooltip.background.csd:last-child{border-rad
 
 tooltip.background.csd decoration { padding: 0; box-shadow: none; }
 
-tooltip * {	background-color: transparent;	color: #353535; padding: 3px 3px 2px 3px; border-radius: 8px; }
+tooltip * {	background-color: transparent;	color: white; padding: 3px 3px 2px 3px; border-radius: 8px; }
 
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
