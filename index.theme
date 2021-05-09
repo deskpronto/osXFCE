@@ -1,12 +1,11 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
-Name=Arc-Flatabulous
-Comment=A flat theme with transparent elements and mac like window controls
+Name=Greybird
+Comment=
 Encoding=UTF-8
 
 [X-GNOME-Metatheme]
-GtkTheme=Arc-Flatabulous
-MetacityTheme=Arc-Flatabulous
-IconTheme=gnome
-CursorTheme=DMZ-Black
+GtkTheme=Greybird
+IconTheme=SYNCYOU-Claro-Icones
+CursorTheme=SYNCYOU-Claro-Icones
 ButtonLayout=menu:minimize,maximize,close
