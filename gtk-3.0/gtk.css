@@ -310,7 +310,7 @@ button {
   button:active, button:checked {
     color: #353535;
     border-color: #cfd6e6;
-    background-color: #f7f7f7;
+    background-color: #40C6FF;
     background-clip: border-box;
     transition-duration: 50ms; }
     button:active:not(:disabled) label:disabled, button:checked:not(:disabled) label:disabled {
@@ -1932,7 +1932,7 @@ scrollbar {
     scrollbar slider:hover {
       background-color: #c7c9cd; }
     scrollbar slider:hover:active {
-      background-color: #F7F7F7; }
+      background-color: #5294e2; }
     scrollbar slider:disabled {
       background-color: transparent; }
   scrollbar.fine-tune slider {
@@ -2272,7 +2272,7 @@ scale {
     .osd scale trough {
       background-color: rgba(69, 74, 89, 0.95); }
       .osd scale trough highlight {
-        background-color: #F7F7F7; }
+        background-color: #5294e2; }
     menuitem:hover scale trough,
     row:selected scale trough,
     infobar scale trough {
@@ -2291,7 +2291,7 @@ scale {
         background-color: rgba(0, 0, 0, 0.1); }
   scale highlight {
     border-radius: 2.5px;
-    background-color: #F7F7F7; }
+    background-color: #5294e2; }
     scale highlight:disabled {
       background-color: rgba(82, 148, 226, 0.55); }
   scale fill {
@@ -2309,7 +2309,7 @@ scale {
       background-color: white; }
     scale slider:active {
       background-clip: border-box;
-      background-color: #F7F7F7;
+      background-color: #5294e2;
       border-color: #5294e2; }
     scale slider:disabled {
       background-color: #fbfbfb;
@@ -2337,7 +2337,7 @@ scale {
         border-color: #b1cff2; }
     .osd scale slider {
       background-clip: border-box;
-      background-color: #F7F7F7;
+      background-color: #5294e2;
       border-color: #5294e2; }
       .osd scale slider:hover {
         background-color: #7eafe9;
@@ -2397,7 +2397,7 @@ progressbar {
       background-color: transparent;
       box-shadow: none; }
   progressbar progress {
-    background-color: #F7F7F7;
+    background-color: #5294e2;
     border: none;
     border-radius: 3px;
     box-shadow: none; }
@@ -2869,7 +2869,7 @@ tooltip.background.csd:first-child, tooltip.background.csd:last-child{border-rad
 
 tooltip.background.csd decoration { padding: 0; box-shadow: none; }
 
-tooltip * {	background-color: transparent;	color: white; padding: 3px 3px 2px 3px; border-radius: 8px; }
+tooltip * {	background-color: transparent;	color: #353535; padding: 3px 3px 2px 3px; border-radius: 8px; }
 
 colorswatch, colorswatch:drop(active) {
   border-style: none; }
