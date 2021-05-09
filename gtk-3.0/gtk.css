@@ -311,7 +311,7 @@ button {
   button:hover {
     color: #353535;
     border-color: #cfd6e6;
-    background-color: transparent; }
+    background-color: silver; }
   button:active, button:checked {
     color: #353535;
     border-color: #cfd6e6;
@@ -894,11 +894,9 @@ toolbar, .toolbar, .inline-toolbar {
   -GtkWidget-window-dragging: true;
   padding: 2px;
   background-color: #F7F7F7;
-   
-
-    background-image: none;
-    text-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
-    icon-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
+  background-image: none;
+  text-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
+  icon-shadow: 0 1px alpha (@bg_highlight_color, 0.4);
 }
   toolbar separator, .inline-toolbar separator {
     background: none; }
