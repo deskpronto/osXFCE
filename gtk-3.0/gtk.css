@@ -3674,7 +3674,8 @@ panel-toplevel.background na-tray-applet {
     box-shadow: inset 0 -2px #5294e2; }
 	
 .tasklist .toggle {
-  background-color: gainsboro;
+  background-color: transparent;
+  border; 1px solid silver;
 }
 
 .tasklist .toggle:hover {
