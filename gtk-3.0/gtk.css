@@ -3674,7 +3674,7 @@ panel-toplevel.background na-tray-applet {
     box-shadow: inset 0 -2px #5294e2; }
 	
 .tasklist .toggle {
-  background-color: lightgray;
+  background-color: gainsboro;
 }
 
 .tasklist .toggle:hover {
@@ -3686,7 +3686,7 @@ panel-toplevel.background na-tray-applet {
   background-color: #ffffff;
   color: #31363d;
 }
-.xfce4-panel.panel button { margin: 1px; border-radius: 7; }
+.xfce4-panel.panel button { margin: 1px; border-radius: 6px; }
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
