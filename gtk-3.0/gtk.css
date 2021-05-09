@@ -3678,7 +3678,7 @@ panel-toplevel.background na-tray-applet {
 }
 
 .tasklist .toggle:hover {
-  background-color: green;
+  background-color: silver;
   color: white;
 }
 
@@ -3686,6 +3686,8 @@ panel-toplevel.background na-tray-applet {
   background-color: #ffffff;
   color: #31363d;
 }
+
+.panel button:hover { background-color: red; }  
 
 .mate-panel-menu-bar button:not(#tasklist-button),
 panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel button.flat, .xfce4-panel.panel button.sidebar-button {
