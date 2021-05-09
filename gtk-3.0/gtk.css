@@ -3973,7 +3973,7 @@ toolbar.bottom-toolbar, .bottom-toolbar.inline-toolbar {
 .source-list,
 .source-list.view,
 iconview.source-list {
-  background-color: #F5F6F7;
+  background-color: #40C6FF;
   color: #353535;
   -gtk-icon-style: regular; }
 
@@ -3990,13 +3990,13 @@ iconview.source-list:hover:selected,
 iconview.source-list:selected:focus,
 .source-list.category-expander:hover {
   color: #353535;
-  background-color: #D6D6D6; }
+  background-color: #40C6FF; }
 
 .source-list scrollbar,
 .source-list junction {
   border-image: none;
   border-color: transparent;
-  background-color: #F5F6F7;
+  background-color: #40C6FF;
   background-image: none; }
 
 .source-list.badge,
@@ -4005,7 +4005,7 @@ iconview.source-list:selected:focus,
 .source-list.badge:selected:focus,
 .source-list.badge:hover:selected {
   background-image: none;
-  background-color: #D6D6D6;
+  background-color: #40C6FF;
   color: #353535;
   border-radius: 10px;
   padding: 0 6px;
