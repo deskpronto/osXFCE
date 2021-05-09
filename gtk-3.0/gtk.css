@@ -1541,10 +1541,7 @@ treeview.view {
     .menubar {
       color: @text_color;
     background-color: #F7F7F7;
-    border-width: 0 0 1px;
-    box-shadow:
-        inset 0 1px 0 0 alpha (@bg_highlight_color, 0.2),
-        inset 0 -1px 0 0 alpha (@bg_highlight_color, 0.2);
+    box-shadow: none;
     -GtkWidget-window-dragging: true; }
       menubar:backdrop,
       .menubar:backdrop {
