@@ -1697,7 +1697,7 @@ toolbutton button {
  * XFCE4 Panel Indicators and Applet styling
  ****/
  
- #pulseaudio-button { color: #6B8693; }
+ #pulseaudio-button { color: #838383; }
 
 #xfce4-power-manager-plugin {
   background-color: transparent;
