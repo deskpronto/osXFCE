@@ -4089,28 +4089,28 @@ GtkListBox .h4 {
   font-weight: 700; }
 
 filechooser paned > separator {
-  background-image: linear-gradient(to bottom, rgba(53, 57, 69, 0.95), rgba(53, 57, 69, 0.95)); }
+  background-image: none; }
 
 filechooser.csd.background, filechooser placessidebar list {
-  background-color: transparent; }
+  background-color: #F7F7F7; }
 
 filechooser placessidebar.sidebar {
-  background-color: rgba(53, 57, 69, 0.95); }
+  background-color: #F7F7F7; }
   filechooser placessidebar.sidebar row.sidebar-row {
     border: none;
-    color: #BAC3CF; }
+    color: #353535; }
     filechooser placessidebar.sidebar row.sidebar-row .sidebar-icon {
-      color: rgba(186, 195, 207, 0.6); }
+      color: #353535; }
     filechooser placessidebar.sidebar row.sidebar-row.has-open-popup, filechooser placessidebar.sidebar row.sidebar-row:hover {
       background-color: rgba(186, 195, 207, 0.15); }
     filechooser placessidebar.sidebar row.sidebar-row:disabled, filechooser placessidebar.sidebar row.sidebar-row:disabled label, filechooser placessidebar.sidebar row.sidebar-row:disabled image {
-      color: rgba(186, 195, 207, 0.4); }
+      color: #353535; }
     filechooser placessidebar.sidebar row.sidebar-row:selected.has-open-popup .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:selected:hover .sidebar-icon, filechooser placessidebar.sidebar row.sidebar-row:active:hover .sidebar-icon {
-      color: inherit; }
+      color: #353535; }
     filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button {
-      color: #BAC3CF; }
+      color: #353535; }
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:hover {
-        color: #BAC3CF;
+        color: #353535;
         border-color: rgba(26, 28, 34, 0.35);
         background-color: rgba(119, 127, 151, 0.45); }
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:active {
@@ -4120,27 +4120,27 @@ filechooser placessidebar.sidebar {
       filechooser placessidebar.sidebar row.sidebar-row:not(:selected) button.sidebar-button:not(:hover):not(:active) > image {
         opacity: 0.5; }
     filechooser placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row {
-      color: #00A2E8; }
+      color: #353535; }
       filechooser placessidebar.sidebar row.sidebar-row.sidebar-new-bookmark-row .sidebar-icon {
         color: inherit; }
     filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled), filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) label, filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled) .sidebar-icon {
-      color: #F08437; }
+      color: #353535; }
     filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected {
       background-color: #F08437; }
       filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected, filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected label, filechooser placessidebar.sidebar row.sidebar-row:drop(active):not(:disabled):selected .sidebar-icon {
         color: #353535; }
   filechooser placessidebar.sidebar separator {
-    background-color: transparent; }
+    background-color: #F7F7F7; }
 
 filechooser.maximized placessidebar.sidebar {
   background-color: #F7F7F7; }
 
 filechooser actionbar {
-  color: #BAC3CF;
-  background-color: rgba(53, 57, 69, 0.95);
-  border-color: rgba(37, 40, 49, 0.95); }
+  color: #353535;
+  background-color: #F7F7F7;
+  border: none; }
   filechooser actionbar label, filechooser actionbar combobox {
-    color: #BAC3CF; }
+    color: #353535; }
 
 .gedit-bottom-panel-paned {
   background-color: #ffffff; }
