@@ -1781,7 +1781,7 @@ notebook {
     background-color: #ffffff; }
   notebook > header {
     padding: 2px;
-    background-color: #F7F7F7; }
+    background-color: #E5E5E5; }
     notebook > header.top {
       box-shadow: inset 0 -1px #dcdfe3; }
     notebook > header.bottom {
