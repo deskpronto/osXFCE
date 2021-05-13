@@ -1540,7 +1540,7 @@ treeview.view {
         menubar > menuitem:hover,
         .menubar > menuitem:hover {
           background-color: #00A2E8;
-          color: white;
+          color: #ffffff;
           border-color: shade(#00A2E8, 1.1); }
         menubar > menuitem:disabled,
         .menubar > menuitem:disabled {
@@ -1592,7 +1592,7 @@ toolbutton button {
       }
         menu menuitem:hover,
         .menu menuitem:hover {
-          color: white
+          color: #ffffff;
           background-color: #00A2E8;
     }
         menu menuitem:disabled,
