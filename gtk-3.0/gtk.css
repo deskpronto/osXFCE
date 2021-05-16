@@ -341,7 +341,7 @@ button {
     button.osd:hover {
       color: #00A2E8; }
     button.osd:active, button.osd:checked {
-      color: #353535;
+      color: white;
       border-color: rgba(26, 28, 34, 0.35);
       background-color: #D6D6D6; }
     button.osd:disabled {
