@@ -284,7 +284,7 @@ button {
   button:active, button:checked {
     color: white;
     border-color: #cfd6e6;
-    background-color: #00A2E8;
+    background-color: #EFEFEF;
     background-clip: border-box;
     transition-duration: 50ms; }
   button:active:hover {
