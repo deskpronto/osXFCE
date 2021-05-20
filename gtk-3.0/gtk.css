@@ -283,7 +283,7 @@ button {
     border-radius: 5px; }
   button:active, button:checked {
     color: #353535;
-    border-color: transparent;
+    border-color: #cfd6e6;
     background-color: #EFEFEF;
     background-clip: border-box;
     transition-duration: 50ms; }
