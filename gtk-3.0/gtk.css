@@ -1555,12 +1555,9 @@ menu, .content-view .menu,
     padding: 4px;
   margin: 0;
   border-radius: 7px;
-/*  background-origin: padding-box; */
-  outline-offset: 0;
-  background-color: #e5e5e5;
-
-     
-  }
+  background-color: #F3F3F3;
+border: none; 
+	box-shadow: none; }
 
 
 toolbutton button {
@@ -1574,8 +1571,9 @@ toolbutton button {
 }
     menu,
     .menu { /* menu text of drop down part */
+	box-shadow: none;
       padding: 4px 0;
-      background-color: #e5e5e5;
+      background-color: #F3F3F3;
       border: 1px solid #858585;
       color: #2b2b2b; }
       .csd menu, .csd
@@ -1587,7 +1585,7 @@ toolbutton button {
       .menu menuitem {
         min-height: 16px;
         min-width: 40px;
-        padding: 4px 6px;
+        padding: 6px 6px;
         text-shadow: none;
       }
         menu menuitem:hover,
@@ -1703,7 +1701,7 @@ popover.background {
   border-radius: 3px;
   background-clip: border-box;
   background-color: #ffffff;
-  box-shadow: 0 2px 6px 1px rgba(0, 0, 0, 0.07); }
+  box-shadow: none; }
   .csd popover, popover, .csd
   popover.background,
   popover.background {
@@ -2832,7 +2830,7 @@ row:selected button:disabled, infobar.info button:disabled, infobar.question but
     background-color: rgba(255, 255, 255, 0.5);
     border-color: rgba(255, 255, 255, 0.4); }
 
-tooltip {	box-shadow: none;}
+tooltip { box-shadow: none;}
 
 tooltip.background {
 	background-color: rgba(0,0,0,0.4);
@@ -2972,10 +2970,10 @@ stackswitcher button.circular {
 decoration {
   border-radius: 8px 8px 0 0;
   border-width: 0px;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: none;
   margin: 10px; }
   decoration:backdrop {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 8px 8px 0 transparent, 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: none;
     transition: 200ms ease-out; }
   .fullscreen decoration,
   .tiled decoration {
@@ -2985,12 +2983,12 @@ decoration {
     border-radius: 0; }
   .ssd decoration {
     border-radius: 8px 8px 0 0;
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: none; }
     .ssd decoration.maximized {
       border-radius: 0; }
   .csd.popup decoration {
     border-radius: 2px;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.1); }
+    box-shadow: none; }
   messagedialog.csd decoration {
     border-radius: 3px; }
   .solid-csd decoration {
@@ -3145,46 +3143,6 @@ terminal-window notebook > header.top {
 .conflict-row.activatable:selected {
   color: #353535;
   background-color: #E5E5E5; }
-
-.nemo-window .nemo-places-sidebar.frame {
-  border-width: 0; }
-
-.nemo-window notebook {
-  background-color: #ffffff; }
-
-.nemo-window .nemo-window-pane widget.entry {
-  border: 1px solid;
-  border-radius: 3px;
-  color: #353535;
-  border-color: #15BFFF;
-  background-color: #ffffff; }
-
-.nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button {
-  color: rgba(82, 93, 118, 0.8);
-  border-color: rgba(82, 93, 118, 0.1);
-  background-color: rgba(251, 251, 252, 0.9); }
-  .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:not(:last-child):not(:only-child) {
-    margin: 0 0 1px 0; }
-  .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover {
-    background-color: rgba(255, 255, 255, 0.9); }
-  .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:active, .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:checked {
-    color: #353535;
-    border-color: #15BFFF;
-    background-color: #E5E5E5; }
-  .nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:disabled {
-    color: rgba(82, 93, 118, 0.4); }
-
-.nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button + button {
-  border-left-style: none; }
-
-.nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active):not(:only-child):hover {
-  box-shadow: inset 1px 0 rgba(82, 93, 118, 0.1), inset -1px 0 rgba(82, 93, 118, 0.1); }
-
-.nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active):not(:only-child):first-child:hover {
-  box-shadow: inset -1px 0 rgba(82, 93, 118, 0.1); }
-
-.nemo-window .primary-toolbar widget.raised.linked:not(.vertical):not(.path-bar) > button:hover:not(:checked):not(:active):not(:only-child):last-child:hover {
-  box-shadow: inset 1px 0 rgba(82, 93, 118, 0.1); }
 
 .open-document-selector-treeview.view, iconview.open-document-selector-treeview {
   padding: 3px 6px 3px 6px;
@@ -3626,7 +3584,7 @@ panel-toplevel.background button:not(#tasklist-button), .xfce4-panel.panel butto
 .gala-notification {
   border: 1px solid rgba(0, 0, 0, 0.35);
   border-radius: 3px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: none;
   background-image: linear-gradient(to bottom, white, white);
   background-color: transparent; }
   .gala-notification .title, .gala-notification .label {
@@ -3918,23 +3876,6 @@ GraniteWidgetsXsEntry entry {
 
 GtkListBox .h4 {
   padding-left: 6px; }
-
-/*#panel_window {
-  background-color: rgba(43, 46, 55, 0.95);
-  color: #E5E5E5;
-  box-shadow: inset 0 -1px rgba(27, 29, 35, 0.95); }
-  #panel_window menubar {
-    padding-left: 5px; }
-    #panel_window menubar, #panel_window menubar > menuitem {
-      background-color: transparent;
-      color: #E5E5E5
-      font-weight: 600; }
-  #panel_window menubar menuitem:disabled {
-    color: rgba(186, 195, 207, 0.5); }
-    #panel_window menubar menuitem:disabled label {
-      color: inherit; }
-  #panel_window menubar menu > menuitem {
-    font-weight: 600; }*/
 
 #login_window,
 #shutdown_dialog,
