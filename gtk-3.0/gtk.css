@@ -1554,10 +1554,10 @@ menu, .content-view .menu,
 .content-view .menu button {
     padding: 4px;
   margin: 0;
-  border-bottom-left-radius: 6px;
-  border-bottom-right-radius: 6px;
-  background-origin: padding-box;
+  border-radius: 7px;
+/*  background-origin: padding-box; */
   outline-offset: 0;
+  background-color: #e5e5e5;
 
      
   }
@@ -1575,7 +1575,7 @@ toolbutton button {
     menu,
     .menu { /* menu text of drop down part */
       padding: 4px 0;
-      background-color: #fcfcfc;
+      background-color: #e5e5e5;
       border: 1px solid #858585;
       color: #2b2b2b; }
       .csd menu, .csd
@@ -1587,7 +1587,7 @@ toolbutton button {
       .menu menuitem {
         min-height: 16px;
         min-width: 40px;
-        padding: 2px 6px;
+        padding: 4px 6px;
         text-shadow: none;
       }
         menu menuitem:hover,
