@@ -3567,7 +3567,7 @@ panel-toplevel.background na-tray-applet {
 
 .tasklist .toggle:hover {
   background-color: #BDBDBD;
-  color: #353535;
+  color: #ffffff;
 }
 
 .tasklist .toggle:checked {
