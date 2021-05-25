@@ -1574,11 +1574,11 @@ toolbutton button {
 	box-shadow: none;
       padding: 4px 0;
       background-color: #F3F3F3;
-      border: 1px solid #858585;
+      border: 1px solid #C6C6C6;
       color: #2b2b2b; }
       .csd menu, .csd
       .menu {
-        border: 1px solid #858585;
+        border: 1px solid #C6C6C6;
 	}
 
       menu menuitem,
