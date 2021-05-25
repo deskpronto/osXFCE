@@ -3574,6 +3574,7 @@ panel-toplevel.background na-tray-applet {
 .tasklist .toggle:checked {
   background-color: #F7F7F7;
   color: #353535;
+  font-weight: bold;
 }
 .xfce4-panel.panel button { margin: 1px; border-radius: 6px; }
 
