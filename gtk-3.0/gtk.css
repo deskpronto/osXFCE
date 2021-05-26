@@ -1518,6 +1518,20 @@ treeview.view {
     background-color: #D6D6D6;
     border-radius: 0;
     border-style: none; }
+	
+
+  treeview.view:backdrop header.button.dnd:selected,
+  treeview.view:backdrop header.button.dnd:hover,
+  treeview.view:backdrop header.button.dnd:active {
+    padding: 0 6px;
+    transition: none;
+    color: #353535;
+    background-color: #ffffff;
+    border-radius: 0;
+    border-style: none; }	
+	
+	
+	
 
     /*********
      * Menus *
