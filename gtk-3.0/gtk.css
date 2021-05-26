@@ -3104,7 +3104,7 @@ modelbutton.flat:selected arrow, treeview.view:selected, treeview.view:selected:
   background-color: #EFEFEF; 
   color: #353535;}
 
-.view:selected:focus { background-color: #EFEFEF; border-radius: 3px; }
+.view:selected:focus { background-color: #DEDEDE; border-radius: 3px; }
 
 .gedit-bottom-panel-paned notebook > header.top > tabs > tab:checked,
 terminal-window notebook > header.top > tabs > tab:checked {
