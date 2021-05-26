@@ -505,10 +505,6 @@ button {
 
 
 
-.inline-toolbar:backdrop toolbutton > button {
-  color: #353535;
-  border-color: #D6D6D6;
-  background-color: #D6D6D6; }
 
 
 .linked:not(.vertical):not(.path-bar) > entry + entry {
