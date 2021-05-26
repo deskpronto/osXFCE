@@ -503,6 +503,14 @@ button {
     .inline-toolbar toolbutton > button:disabled:active label, .inline-toolbar toolbutton > button:disabled:active, .inline-toolbar toolbutton > button:disabled:checked label, .inline-toolbar toolbutton > button:disabled:checked {
       color: rgba(255, 255, 255, 0.8); }
 
+
+
+.inline-toolbar:backdrop toolbutton > button {
+  color: #353535;
+  border-color: #D6D6D6;
+  background-color: #D6D6D6; }
+
+
 .linked:not(.vertical):not(.path-bar) > entry + entry {
   border-left-color: rgba(207, 214, 230, 0.3); }
 
